@@ -1,0 +1,52 @@
+body{
+    font-family: "Times New Roman";
+    background: #ABF;
+    color: #000;
+    font-size: 12px;
+    width: 100%;
+}
+h1{ 
+    font-size: 32px;
+    color: #003366;
+    font-weight: bold;
+    margin: 20px,20px,20px,20px;
+}
+p{
+    font-size: 16px;
+    margin: 16px, 0px;
+}
+b{
+    font-size: 16px;
+    margin: 16px, 0px;
+    font-weight: bold;
+}
+h2{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    color: #FF0000;
+    background-color: #FFFF00;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body{
+        font-family: "Times New Roman";
+        background: #ABF;
+        color: #000;
+        font-size: 12px;
+        width: 100%;
+    }
+    h1{ 
+        font-size: 32px;
+        color: #003366;
+        font-weight: bold;
+        margin: 20px,20px,20px,20px;
+    }
+    p{
+        font-size: 16px;
+        margin: 16px, 0px;
+    }
