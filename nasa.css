@@ -15,6 +15,9 @@ p{
     font-size: 16px;
     margin: 16px, 0px;
 }
+button {
+    overflow: visible;
+}
 b{
     font-size: 16px;
     margin: 16px, 0px;

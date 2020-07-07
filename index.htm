@@ -4,6 +4,7 @@
 
         <head>
             <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title></title>
             <link rel="stylesheet" href="reset.css">
             <link rel="stylesheet" href="nasa.css">
@@ -14,23 +15,32 @@
                     <header>
                         <h1>Astronomy Picture of the Day</h1>
                     </header>
-                <br>
-                    <div>
-                        <a href="https://apod.nasa.gov/apod/archivepix.html">Discover the cosmos!</a><p id="text"></p>
-                    </div>
-                <br>
+                        <br>
                         <div>
+                            <p id="text">
+                            <a href="https://apod.nasa.gov/apod/archivepix.html">Discover the cosmos!</a> Todos os dias, uma imagem ou fotografia diferente do nosso fascinante universo é apresentada, juntamente com uma breve explicação escrita por um astrônomo profissional.</p>
+                        </div> 
+                    <form class="form">
+                        <br> 
+                        <label for="calendario">Escolha uma Data :</label>      
+                        <input type="date" id="calendario" class="form-control" required autofocus/><button id="botao-pesquisa">Pesquisar</button>
+                        <br>
+                    </form>
+                        <div>
+                            <br>
                             <p id="data"></p>
                             <img src="" alt="" id="imgPrincipal" />
-                <br>
+                            <br>
                         
                             <h2 id="imgSub"></h2>
                             <span id="copy">&copy; </span>
             </center>
-                <br>        
-                            <b> Explanation:</b> 
-                            <p id="textExplanation">
-                            </p>
+                            <br>     
+                            <div>
+                                <b> Explanation:</b> 
+                                <p id="textExplanation">
+                                </p> 
+                            <div>
                         </div>
                     
                         
